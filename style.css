@@ -1,0 +1,15 @@
+.mycontainer {
+    display: flex;
+    border: 2px solid #ccc; /* Add border for visualization */
+}
+.mycontainer > div {
+    flex: 1;
+    padding: 10px;
+    border-right: 1px solid #ccc; /* Add vertical line between sections */
+}
+.mycontainer > div:last-child {
+    border-right: none; /* Remove border-right for the last div */
+}
+img {
+    margin-right: 10px; /* Add some spacing between image and text */
+}
